@@ -1,7 +1,6 @@
 "use client";
 
-import { IconButton, Button, Typography } from "@material-tailwind/react";
-import { PlayIcon } from "@heroicons/react/24/solid";
+import { Typography } from "@material-tailwind/react";
 
 function Hero() {
   return (
@@ -13,7 +12,7 @@ function Hero() {
           29-31 August @ New York
   </Typography>**/}
         <Typography variant="h1" color="white" className="lg:max-w-3xl">
-        SWEDISH, SHIATSU, THAI & OTHER DIFFERENT MASSAGES
+        WELCOME TO HURRICANE MASSAGE AND SPA
         </Typography>
         <Typography
           variant="lead"

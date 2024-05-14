@@ -37,10 +37,7 @@ export function SponsoredBy() {
             </CardHeader>
             <CardBody>
               <Typography variant="h5" color="blue-gray">
-                KIDS MASSAGE
-              </Typography>
-              <Typography variant="h6" color="blue-gray" className="mb-2">
-                1hour - P250
+                KIDDY MASSAGE
               </Typography>
               <Typography>
                 For children offers a lot of health benefits. It is human nature
@@ -69,9 +66,6 @@ export function SponsoredBy() {
               <Typography variant="h5" color="blue-gray">
                 COMBINATION MASSAGE
               </Typography>
-              <Typography variant="h6" color="blue-gray" className="mb-2">
-                1hour - P299
-              </Typography>
               <Typography>
                 The therapist uses a skill to combine techniques from multiple
                 massage types to best benefit your specific needs. It can
@@ -96,9 +90,6 @@ export function SponsoredBy() {
             <CardBody>
               <Typography variant="h5" color="blue-gray" className="mb-2">
                 SHIATSU MASSAGE
-              </Typography>
-              <Typography variant="h6" color="blue-gray" className="mb-2">
-                1hour - P299
               </Typography>
               <Typography>
                 Pressure applied to points on the body promotes energy flow and
@@ -125,9 +116,6 @@ export function SponsoredBy() {
               <Typography variant="h5" color="blue-gray">
                 SWEDISH MASSAGE
               </Typography>
-              <Typography variant="h6" color="blue-gray" className="mb-2">
-                1hour - P300
-              </Typography>
               <Typography>
                 Primary goals of the swedish massage technique is to relax the
                 entire body. This is accomplished by rubbing the muscles with
@@ -152,9 +140,6 @@ export function SponsoredBy() {
               <Typography variant="h5" color="blue-gray">
                 THAI MASSAGE
               </Typography>
-              <Typography variant="h6" color="blue-gray" className="mb-2">
-                1hour - P399
-              </Typography>
               <Typography>
                 Relieve tension headaches, reduce types of back pain typically
                 subacute and chronic nonspecific back pain. Relieve muscle pain
@@ -178,10 +163,7 @@ export function SponsoredBy() {
             </CardHeader>
             <CardBody>
               <Typography variant="h5" color="blue-gray">
-                AROMA SIGNATURE MASSAGE
-              </Typography>
-              <Typography variant="h6" color="blue-gray" className="mb-2">
-                1hour-30mins - P599
+                HURRICANE SIGNATURE MASSAGE
               </Typography>
               <Typography>
                 This is truly a special treat from our expert Male and Female
@@ -206,9 +188,6 @@ export function SponsoredBy() {
             <CardBody>
               <Typography variant="h5" color="blue-gray">
                 PRE-NATAL MASSAGE
-              </Typography>
-              <Typography variant="h6" color="blue-gray" className="mb-2">
-                1hour - P399
               </Typography>
               <Typography>
                 Help for your pregnancy aches and pains. Prenatal massage is a
@@ -237,9 +216,6 @@ export function SponsoredBy() {
               <Typography variant="h5" color="blue-gray">
                 TWIN MASSAGE
               </Typography>
-              <Typography variant="h6" color="blue-gray" className="mb-2">
-                1hour - P599
-              </Typography>
               <Typography>
                 Holistic treatment that calms the body by using a combination of
                 gentle stretches, acupressure, reflexology, and aromatherapy to
@@ -263,9 +239,6 @@ export function SponsoredBy() {
               <Typography variant="h5" color="blue-gray">
               EAR CANDLING w/ MASSAGE
               </Typography>
-              <Typography variant="h6" color="blue-gray" className="mb-2">
-              1hour - P299
-              </Typography>
               <Typography>
               Ear Candling w/ Massage. A special treat for your love ones. 
               Rejuvenate your whole body with body massage together with Ear Candling therapy.
@@ -287,9 +260,6 @@ export function SponsoredBy() {
             <CardBody>
               <Typography variant="h5" color="blue-gray">
               FOOT SPA & SCRUB w/ MASSAGE
-              </Typography>
-              <Typography variant="h6" color="blue-gray" className="mb-2">
-              1hour-30mins - P499
               </Typography>
               <Typography>
               Holds great importance in many cultures. In Indian tradition, 
@@ -315,9 +285,6 @@ export function SponsoredBy() {
               <Typography variant="h5" color="blue-gray">
               VENTOSA w/ MASSAGE
               </Typography>
-              <Typography variant="h6" color="blue-gray" className="mb-2">
-              1hour-30mins - P599
-              </Typography>
               <Typography>
               Encourage blood flow and sedate the nervous system. Which makes it an excellent treatment for high blood pressure. 
               Stiff muscles, anxiety, fatigue, migraines, 
@@ -340,9 +307,6 @@ export function SponsoredBy() {
             <CardBody>
               <Typography variant="h5" color="blue-gray">
               BODY SCRUB w/ MASSAGE
-              </Typography>
-              <Typography variant="h6" color="blue-gray" className="mb-2">
-              1hour-30mins - P599
               </Typography>
               <Typography>
               Treat your family and friend with Body Scrub with Massage. 

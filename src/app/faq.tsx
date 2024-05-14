@@ -1,7 +1,6 @@
 "use client";
 
 import React from "react";
-import { Typography, Accordion, AccordionHeader, AccordionBody } from "@material-tailwind/react";
 
 const FAQS = [
   {
@@ -32,7 +31,6 @@ const FAQS = [
     title: "Saturday  |  9:00 - 18:00",
     desc: "There's nothing I really wanted to do in life that I wasn't able to get good at. That's my skill. I'm not really specifically talented at anything except for the ability to learn. That's what I do. That's what I'm here for. Don't be afraid to be wrong because you can't learn anything from a compliment. I always felt like I could do anything. That's the main thing people are controlled by! Thoughts- their perception of themselves! They're slowed down by their perception of themselves. If you're taught you can't do anything, you won't do anything. I was taught I could do everything.",
   },
-  
 ];
 
 export function Faq() {
@@ -40,47 +38,8 @@ export function Faq() {
   const handleOpen = (value: number) => setOpen(open === value ? 0 : value);
 
   return (
-    <section className="py-8 px-8 lg:py-20">
-      <div className="container mx-auto">
-        <div className="text-center">
-          <Typography variant="h1" color="blue-gray" className="mb-4">
-          Our Availability
-          </Typography>
-          {/**<Typography
-            variant="lead"
-            className="mx-auto mb-24 lg:w-3/5 !text-gray-500"
-          >
-            Welcome to the AI Conference 2023 FAQ section. We&apos;re here to
-            address your most common queries and provide you with the
-            information you need to make the most of your conference experience.
-  </Typography>**/}
-        </div>
-
-        <div className="mx-auto lg:max-w-screen-lg lg:px-20">
-          {FAQS.map(({ title, desc }, key) => (
-            <Accordion
-              key={key}
-              open={open === key + 1}
-              onClick={() => handleOpen(key + 1)}
-            >
-              <AccordionHeader className="text-left text-gray-900">
-                {title}
-              </AccordionHeader>
-              {/**<AccordionBody>
-                <Typography
-                  color="blue-gray"
-                  className="font-normal text-gray-500"
-                >
-                  {desc}
-                </Typography>
-          </AccordionBody>**/}
-            </Accordion>
-          ))}
-        </div>
-      </div>
-    </section>
+    <></>
   );
 }
-
 
 export default Faq;

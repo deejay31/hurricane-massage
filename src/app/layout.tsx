@@ -1,7 +1,7 @@
-import "./globals.css";
 import type { Metadata } from "next";
+import "./globals.css";
 //import { Roboto } from "next/font/google";
-import { Layout, FixedPlugin } from "@/components";
+import { FixedPlugin, Layout } from "@/components";
 
 /**const roboto = Roboto({
   subsets: ["latin"],
@@ -28,7 +28,7 @@ export default function RootLayout({
           data-site="YOUR_DOMAIN_HERE"
           src="https://api.nepcha.com/js/nepcha-analytics.js"
         ></script>
-        <link rel="shortcut icon" href="/favicon.png" type="image/png" />
+        <link rel="shortcut icon" href="/logos/hurricane-logo-final.ico"/>
       </head>
       <body> 
         <Layout>
