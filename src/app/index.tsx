@@ -3,6 +3,7 @@ export * from "./hero";
 export * from "./layout";
 export * from "./page";
 export * from "./our-stats";
+export * from "./contact-number";
 export * from "./about-event";
 export * from "./faq";
 export * from "./sponsored-by";

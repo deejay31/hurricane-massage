@@ -20,10 +20,22 @@ const EVENT_INFO = [
 
 export function AboutEvent() {
   return (
-    <section className="container mx-auto flex flex-col items-center px-4 py-10 bg-violet-200">
+    <section className="container mx-auto flex flex-col items-center px-4 bg-violet-200">
       {/**<Typography variant="h6" className="text-center mb-2" color="orange">
         About the event
   </Typography>**/}
+    <div className=" mb-8">
+    <Typography variant="h4" className="text-center" color="blue-gray">
+        Contact Number
+      </Typography>
+      <Typography variant="h2" className="text-center" color="blue-gray">
+        SMART: 09622829511
+      </Typography>
+      <Typography variant="h2" className="text-center" color="blue-gray">
+        GLOBE: 09157503937
+      </Typography>
+    </div>
+      
       <Typography variant="h3" className="text-center" color="blue-gray">
       Why A Massage?
       </Typography>

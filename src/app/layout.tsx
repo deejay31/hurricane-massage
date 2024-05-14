@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 //import { Roboto } from "next/font/google";
 import { FixedPlugin, Layout } from "@/components";
+//import { FacebookMsg } from "./FacebookMsg";
 
 /**const roboto = Roboto({
   subsets: ["latin"],
@@ -25,7 +26,7 @@ export default function RootLayout({
       <head>
         <script
           defer
-          data-site="YOUR_DOMAIN_HERE"
+          data-site="https://hurricane-massage.vercel.app/"
           src="https://api.nepcha.com/js/nepcha-analytics.js"
         ></script>
         <link rel="shortcut icon" href="/logos/hurricane-logo-final.ico"/>
@@ -42,6 +43,7 @@ export default function RootLayout({
           crossOrigin="anonymous"
           referrerPolicy="no-referrer"
         />
+
       </body>
     </html>
   );
